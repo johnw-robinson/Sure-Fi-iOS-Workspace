@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521D6AA41ECA00EB00D23D14 /* BridgeConfigureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D6AA31ECA00EB00D23D14 /* BridgeConfigureTableViewController.swift */; };
+		522352A11EE70E440007F8D6 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522352A01EE70E440007F8D6 /* AccountTableViewController.swift */; };
+		522352A41EE86DB00007F8D6 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352A21EE86DB00007F8D6 /* Messages.framework */; };
+		522352A51EE86DB00007F8D6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352A31EE86DB00007F8D6 /* MessageUI.framework */; };
+		522352A81EE873660007F8D6 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352A61EE873660007F8D6 /* UserNotifications.framework */; };
+		522352A91EE873660007F8D6 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352A71EE873660007F8D6 /* UserNotificationsUI.framework */; };
+		522352AE1EEA08330007F8D6 /* BridgeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522352AD1EEA08330007F8D6 /* BridgeImageViewController.swift */; };
+		522352B01EEAE9750007F8D6 /* BridgeTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522352AF1EEAE9750007F8D6 /* BridgeTextViewController.swift */; };
+		522352B21EEB10F50007F8D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352B11EEB10F50007F8D6 /* CoreLocation.framework */; };
+		522352B51EEF37A10007F8D6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352B41EEF37A10007F8D6 /* AddressBook.framework */; };
+		522352B71EF036520007F8D6 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522352B61EF036520007F8D6 /* RegisterTableViewController.swift */; };
+		522352B91EF06B640007F8D6 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522352B81EF06B640007F8D6 /* Contacts.framework */; };
+		522490CC1F0E98C40061E1B2 /* BridgeDeviceDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522490CB1F0E98C40061E1B2 /* BridgeDeviceDetailsTableViewController.swift */; };
+		5249AA151E8EA4A700C1C3A0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249AA141E8EA4A700C1C3A0 /* Util.swift */; };
+		5249AA171E8EA4D400C1C3A0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249AA161E8EA4D400C1C3A0 /* Reachability.swift */; };
+		5249AA191E8ECA1F00C1C3A0 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249AA181E8ECA1F00C1C3A0 /* SessionController.swift */; };
+		525E15E41EA941290003BB48 /* BridgePairingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E15E31EA941290003BB48 /* BridgePairingTableViewController.swift */; };
+		525F19841EF1A3B8006351FB /* PairingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F19831EF1A3B8006351FB /* PairingTableViewController.swift */; };
+		525F19861EF1A917006351FB /* PairingCentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F19851EF1A917006351FB /* PairingCentralViewController.swift */; };
+		525F19881EF2CE16006351FB /* PairingExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F19871EF2CE16006351FB /* PairingExamplesViewController.swift */; };
+		525F198C1EF2D34F006351FB /* PairingRemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F198B1EF2D34F006351FB /* PairingRemoteViewController.swift */; };
+		525F198E1EF2D777006351FB /* PairingSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F198D1EF2D777006351FB /* PairingSystemViewController.swift */; };
+		526AF43D1ED72FEC00B4F4A3 /* ConfigureRadioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AF43C1ED72FEC00B4F4A3 /* ConfigureRadioTableViewController.swift */; };
+		52790E021EA5361300914F17 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52790E001EA5361300914F17 /* iCarousel.m */; };
+		52790E031EA5361300914F17 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52790E011EA5361300914F17 /* Info.plist */; };
+		52790E0F1EA6B9DE00914F17 /* BridgePairTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52790E0E1EA6B9DE00914F17 /* BridgePairTableViewController.swift */; };
+		52790E111EA6C70100914F17 /* BridgeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52790E101EA6C70100914F17 /* BridgeSelectViewController.swift */; };
+		52790E151EA6C84200914F17 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52790E131EA6C84200914F17 /* AVFoundation.framework */; };
+		52790E161EA6C84200914F17 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52790E141EA6C84200914F17 /* AVKit.framework */; };
+		52790E181EA6C84E00914F17 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52790E171EA6C84E00914F17 /* CoreBluetooth.framework */; };
+		527B55DF1ECC9FF6000FC630 /* BridgeFirmwareUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B55DE1ECC9FF6000FC630 /* BridgeFirmwareUpdateViewController.swift */; };
+		5284872B1ECE41BA00633FB8 /* Crc16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284872A1ECE41BA00633FB8 /* Crc16.swift */; };
+		5293D7B31F0A9D1700FD5F1D /* BridgeUpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293D7B21F0A9D1700FD5F1D /* BridgeUpdateTableViewController.swift */; };
+		5293D7B51F0AAC7F00FD5F1D /* BridgeUpdateSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293D7B41F0AAC7F00FD5F1D /* BridgeUpdateSelectViewController.swift */; };
+		529528B01F0D72820026D1FE /* BridgeStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529528AF1F0D72820026D1FE /* BridgeStartViewController.swift */; };
+		529528B21F0D78C10026D1FE /* BridgeDeviceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529528B11F0D78C10026D1FE /* BridgeDeviceListTableViewController.swift */; };
+		52A10DB81EF449F200A09923 /* ConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A10DB71EF449F200A09923 /* ConfigureViewController.swift */; };
+		52A10DBB1EF467CD00A09923 /* ConfigureRadioSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A10DBA1EF467CD00A09923 /* ConfigureRadioSelectViewController.swift */; };
+		52AF5DAC1ED4B74800EE6000 /* BridgeFirmwareSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF5DAB1ED4B74800EE6000 /* BridgeFirmwareSelectTableViewController.swift */; };
+		52C83C171F0FDAE1002EEC91 /* SFBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C83C161F0FDAE1002EEC91 /* SFBridgeController.swift */; };
+		52D323B01F101B3300F4B3F2 /* BridgeDeviceRadioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D323AF1F101B3300F4B3F2 /* BridgeDeviceRadioTableViewController.swift */; };
+		52D323B21F101B8800F4B3F2 /* BridgeDeviceFirmwareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D323B11F101B8800F4B3F2 /* BridgeDeviceFirmwareTableViewController.swift */; };
+		52D323B41F101C1900F4B3F2 /* BridgeDevicePairTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D323B31F101C1900F4B3F2 /* BridgeDevicePairTableViewController.swift */; };
+		52D323B61F101C5400F4B3F2 /* BridgeDeviceUnpairTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D323B51F101C5400F4B3F2 /* BridgeDeviceUnpairTableViewController.swift */; };
+		52D323B81F101C8200F4B3F2 /* BridgeDeviceDeployTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D323B71F101C8200F4B3F2 /* BridgeDeviceDeployTableViewController.swift */; };
+		52D768161E7B300600F45C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D768151E7B300600F45C50 /* AppDelegate.swift */; };
+		52D768191E7B300600F45C50 /* SureFi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52D768171E7B300600F45C50 /* SureFi.xcdatamodeld */; };
+		52D768201E7B300600F45C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D7681E1E7B300600F45C50 /* Main.storyboard */; };
+		52D768221E7B300600F45C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D768211E7B300600F45C50 /* Assets.xcassets */; };
+		52D768251E7B300600F45C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D768231E7B300600F45C50 /* LaunchScreen.storyboard */; };
+		52D7682D1E7B33CE00F45C50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7682C1E7B33CE00F45C50 /* MainViewController.swift */; };
+		B9A4E966F71D657B561B3513 /* Pods_SureFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6057AC36F477B197BE4EA5A /* Pods_SureFi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1742C28F122FBECFF67CB93C /* Pods-SureFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureFi.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SureFi/Pods-SureFi.release.xcconfig"; sourceTree = "<group>"; };
+		43214577106A51E5575ECF40 /* Pods-SureFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureFi.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SureFi/Pods-SureFi.debug.xcconfig"; sourceTree = "<group>"; };
+		521D6AA31ECA00EB00D23D14 /* BridgeConfigureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeConfigureTableViewController.swift; sourceTree = "<group>"; };
+		522352A01EE70E440007F8D6 /* AccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		522352A21EE86DB00007F8D6 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		522352A31EE86DB00007F8D6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		522352A61EE873660007F8D6 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		522352A71EE873660007F8D6 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		522352AC1EE89ECC0007F8D6 /* SureFi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SureFi.entitlements; sourceTree = "<group>"; };
+		522352AD1EEA08330007F8D6 /* BridgeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeImageViewController.swift; sourceTree = "<group>"; };
+		522352AF1EEAE9750007F8D6 /* BridgeTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeTextViewController.swift; sourceTree = "<group>"; };
+		522352B11EEB10F50007F8D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		522352B41EEF37A10007F8D6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		522352B61EF036520007F8D6 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
+		522352B81EF06B640007F8D6 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		522490CB1F0E98C40061E1B2 /* BridgeDeviceDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeviceDetailsTableViewController.swift; sourceTree = "<group>"; };
+		5249AA141E8EA4A700C1C3A0 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		5249AA161E8EA4D400C1C3A0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5249AA181E8ECA1F00C1C3A0 /* SessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		525E15E31EA941290003BB48 /* BridgePairingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgePairingTableViewController.swift; sourceTree = "<group>"; };
+		525F19831EF1A3B8006351FB /* PairingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingTableViewController.swift; sourceTree = "<group>"; };
+		525F19851EF1A917006351FB /* PairingCentralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingCentralViewController.swift; sourceTree = "<group>"; };
+		525F19871EF2CE16006351FB /* PairingExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingExamplesViewController.swift; sourceTree = "<group>"; };
+		525F198B1EF2D34F006351FB /* PairingRemoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingRemoteViewController.swift; sourceTree = "<group>"; };
+		525F198D1EF2D777006351FB /* PairingSystemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingSystemViewController.swift; sourceTree = "<group>"; };
+		526AF43C1ED72FEC00B4F4A3 /* ConfigureRadioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureRadioTableViewController.swift; sourceTree = "<group>"; };
+		52790DFF1EA5361300914F17 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		52790E001EA5361300914F17 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		52790E011EA5361300914F17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52790E061EA5398500914F17 /* SureFi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SureFi-Bridging-Header.h"; sourceTree = "<group>"; };
+		52790E0E1EA6B9DE00914F17 /* BridgePairTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgePairTableViewController.swift; sourceTree = "<group>"; };
+		52790E101EA6C70100914F17 /* BridgeSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeSelectViewController.swift; sourceTree = "<group>"; };
+		52790E131EA6C84200914F17 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52790E141EA6C84200914F17 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		52790E171EA6C84E00914F17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		527B55DE1ECC9FF6000FC630 /* BridgeFirmwareUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeFirmwareUpdateViewController.swift; sourceTree = "<group>"; };
+		5284872A1ECE41BA00633FB8 /* Crc16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crc16.swift; sourceTree = "<group>"; };
+		5293D7B21F0A9D1700FD5F1D /* BridgeUpdateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeUpdateTableViewController.swift; sourceTree = "<group>"; };
+		5293D7B41F0AAC7F00FD5F1D /* BridgeUpdateSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeUpdateSelectViewController.swift; sourceTree = "<group>"; };
+		529528AF1F0D72820026D1FE /* BridgeStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeStartViewController.swift; sourceTree = "<group>"; };
+		529528B11F0D78C10026D1FE /* BridgeDeviceListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeviceListTableViewController.swift; sourceTree = "<group>"; };
+		52A10DB71EF449F200A09923 /* ConfigureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureViewController.swift; sourceTree = "<group>"; };
+		52A10DBA1EF467CD00A09923 /* ConfigureRadioSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureRadioSelectViewController.swift; sourceTree = "<group>"; };
+		52AF5DAB1ED4B74800EE6000 /* BridgeFirmwareSelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeFirmwareSelectTableViewController.swift; sourceTree = "<group>"; };
+		52C83C161F0FDAE1002EEC91 /* SFBridgeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFBridgeController.swift; sourceTree = "<group>"; };
+		52D323AF1F101B3300F4B3F2 /* BridgeDeviceRadioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeviceRadioTableViewController.swift; sourceTree = "<group>"; };
+		52D323B11F101B8800F4B3F2 /* BridgeDeviceFirmwareTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeviceFirmwareTableViewController.swift; sourceTree = "<group>"; };
+		52D323B31F101C1900F4B3F2 /* BridgeDevicePairTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDevicePairTableViewController.swift; sourceTree = "<group>"; };
+		52D323B51F101C5400F4B3F2 /* BridgeDeviceUnpairTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeviceUnpairTableViewController.swift; sourceTree = "<group>"; };
+		52D323B71F101C8200F4B3F2 /* BridgeDeviceDeployTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDeviceDeployTableViewController.swift; sourceTree = "<group>"; };
+		52D768121E7B300600F45C50 /* SureFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SureFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D768151E7B300600F45C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D768181E7B300600F45C50 /* SureFi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SureFi.xcdatamodel; sourceTree = "<group>"; };
+		52D7681F1E7B300600F45C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D768211E7B300600F45C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D768241E7B300600F45C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D768261E7B300600F45C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D7682C1E7B33CE00F45C50 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B6057AC36F477B197BE4EA5A /* Pods_SureFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SureFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D7680F1E7B300600F45C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522352B91EF06B640007F8D6 /* Contacts.framework in Frameworks */,
+				522352B51EEF37A10007F8D6 /* AddressBook.framework in Frameworks */,
+				522352B21EEB10F50007F8D6 /* CoreLocation.framework in Frameworks */,
+				522352A81EE873660007F8D6 /* UserNotifications.framework in Frameworks */,
+				522352A91EE873660007F8D6 /* UserNotificationsUI.framework in Frameworks */,
+				522352A41EE86DB00007F8D6 /* Messages.framework in Frameworks */,
+				522352A51EE86DB00007F8D6 /* MessageUI.framework in Frameworks */,
+				52790E181EA6C84E00914F17 /* CoreBluetooth.framework in Frameworks */,
+				52790E151EA6C84200914F17 /* AVFoundation.framework in Frameworks */,
+				52790E161EA6C84200914F17 /* AVKit.framework in Frameworks */,
+				B9A4E966F71D657B561B3513 /* Pods_SureFi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F41E9F3AB8EBD69A24C7BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43214577106A51E5575ECF40 /* Pods-SureFi.debug.xcconfig */,
+				1742C28F122FBECFF67CB93C /* Pods-SureFi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		521D6AA51ECBAA3400D23D14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5249AA161E8EA4D400C1C3A0 /* Reachability.swift */,
+				52D768261E7B300600F45C50 /* Info.plist */,
+				52D768171E7B300600F45C50 /* SureFi.xcdatamodeld */,
+				522352AC1EE89ECC0007F8D6 /* SureFi.entitlements */,
+				52790E061EA5398500914F17 /* SureFi-Bridging-Header.h */,
+				52790DFE1EA5361300914F17 /* iCarousel */,
+				5284872A1ECE41BA00633FB8 /* Crc16.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5223529F1EE70CAB0007F8D6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				522352A01EE70E440007F8D6 /* AccountTableViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		525F19801EF19EDE006351FB /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				525F19831EF1A3B8006351FB /* PairingTableViewController.swift */,
+				525F19851EF1A917006351FB /* PairingCentralViewController.swift */,
+				525F198B1EF2D34F006351FB /* PairingRemoteViewController.swift */,
+				525F198D1EF2D777006351FB /* PairingSystemViewController.swift */,
+				525F19871EF2CE16006351FB /* PairingExamplesViewController.swift */,
+				525E15E31EA941290003BB48 /* BridgePairingTableViewController.swift */,
+			);
+			name = Pairing;
+			sourceTree = "<group>";
+		};
+		52790DFE1EA5361300914F17 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				52790DFF1EA5361300914F17 /* iCarousel.h */,
+				52790E001EA5361300914F17 /* iCarousel.m */,
+				52790E011EA5361300914F17 /* Info.plist */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		52790E0B1EA68A5000914F17 /* Bridges */ = {
+			isa = PBXGroup;
+			children = (
+				52C83C161F0FDAE1002EEC91 /* SFBridgeController.swift */,
+				529528AF1F0D72820026D1FE /* BridgeStartViewController.swift */,
+				529528B11F0D78C10026D1FE /* BridgeDeviceListTableViewController.swift */,
+				522490CB1F0E98C40061E1B2 /* BridgeDeviceDetailsTableViewController.swift */,
+				52D323B31F101C1900F4B3F2 /* BridgeDevicePairTableViewController.swift */,
+				52D323B51F101C5400F4B3F2 /* BridgeDeviceUnpairTableViewController.swift */,
+				52D323B71F101C8200F4B3F2 /* BridgeDeviceDeployTableViewController.swift */,
+				52D323B11F101B8800F4B3F2 /* BridgeDeviceFirmwareTableViewController.swift */,
+				52D323AF1F101B3300F4B3F2 /* BridgeDeviceRadioTableViewController.swift */,
+				525F19801EF19EDE006351FB /* Pairing */,
+				52A10DB61EF449B700A09923 /* Configure */,
+				52A10DB91EF44B0400A09923 /* Discontinued */,
+				5293D7B11F0A9C7500FD5F1D /* Updates */,
+				521D6AA31ECA00EB00D23D14 /* BridgeConfigureTableViewController.swift */,
+				52790E101EA6C70100914F17 /* BridgeSelectViewController.swift */,
+				527B55DE1ECC9FF6000FC630 /* BridgeFirmwareUpdateViewController.swift */,
+				52AF5DAB1ED4B74800EE6000 /* BridgeFirmwareSelectTableViewController.swift */,
+			);
+			name = Bridges;
+			sourceTree = "<group>";
+		};
+		52790E121EA6C84200914F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522352B81EF06B640007F8D6 /* Contacts.framework */,
+				522352B41EEF37A10007F8D6 /* AddressBook.framework */,
+				522352B11EEB10F50007F8D6 /* CoreLocation.framework */,
+				522352A61EE873660007F8D6 /* UserNotifications.framework */,
+				522352A71EE873660007F8D6 /* UserNotificationsUI.framework */,
+				522352A21EE86DB00007F8D6 /* Messages.framework */,
+				522352A31EE86DB00007F8D6 /* MessageUI.framework */,
+				52790E171EA6C84E00914F17 /* CoreBluetooth.framework */,
+				52790E131EA6C84200914F17 /* AVFoundation.framework */,
+				52790E141EA6C84200914F17 /* AVKit.framework */,
+				B6057AC36F477B197BE4EA5A /* Pods_SureFi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5293D7B11F0A9C7500FD5F1D /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				5293D7B21F0A9D1700FD5F1D /* BridgeUpdateTableViewController.swift */,
+				5293D7B41F0AAC7F00FD5F1D /* BridgeUpdateSelectViewController.swift */,
+			);
+			name = Updates;
+			sourceTree = "<group>";
+		};
+		52A10DB61EF449B700A09923 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				52A10DB71EF449F200A09923 /* ConfigureViewController.swift */,
+				526AF43C1ED72FEC00B4F4A3 /* ConfigureRadioTableViewController.swift */,
+				52A10DBA1EF467CD00A09923 /* ConfigureRadioSelectViewController.swift */,
+			);
+			name = Configure;
+			sourceTree = "<group>";
+		};
+		52A10DB91EF44B0400A09923 /* Discontinued */ = {
+			isa = PBXGroup;
+			children = (
+				52790E0E1EA6B9DE00914F17 /* BridgePairTableViewController.swift */,
+				522352AF1EEAE9750007F8D6 /* BridgeTextViewController.swift */,
+				522352AD1EEA08330007F8D6 /* BridgeImageViewController.swift */,
+			);
+			name = Discontinued;
+			sourceTree = "<group>";
+		};
+		52D768091E7B300600F45C50 = {
+			isa = PBXGroup;
+			children = (
+				52D768141E7B300600F45C50 /* SureFi */,
+				52D768131E7B300600F45C50 /* Products */,
+				52790E121EA6C84200914F17 /* Frameworks */,
+				43F41E9F3AB8EBD69A24C7BA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		52D768131E7B300600F45C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D768121E7B300600F45C50 /* SureFi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D768141E7B300600F45C50 /* SureFi */ = {
+			isa = PBXGroup;
+			children = (
+				52D768231E7B300600F45C50 /* LaunchScreen.storyboard */,
+				52D7681E1E7B300600F45C50 /* Main.storyboard */,
+				52D768211E7B300600F45C50 /* Assets.xcassets */,
+				52D768151E7B300600F45C50 /* AppDelegate.swift */,
+				52D7682C1E7B33CE00F45C50 /* MainViewController.swift */,
+				522352B61EF036520007F8D6 /* RegisterTableViewController.swift */,
+				5249AA141E8EA4A700C1C3A0 /* Util.swift */,
+				5249AA181E8ECA1F00C1C3A0 /* SessionController.swift */,
+				5223529F1EE70CAB0007F8D6 /* Account */,
+				52790E0B1EA68A5000914F17 /* Bridges */,
+				521D6AA51ECBAA3400D23D14 /* Resources */,
+			);
+			path = SureFi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D768111E7B300600F45C50 /* SureFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D768291E7B300600F45C50 /* Build configuration list for PBXNativeTarget "SureFi" */;
+			buildPhases = (
+				88DF040DDA95833B6DB6BDFB /* [CP] Check Pods Manifest.lock */,
+				52D7680E1E7B300600F45C50 /* Sources */,
+				52D7680F1E7B300600F45C50 /* Frameworks */,
+				52D768101E7B300600F45C50 /* Resources */,
+				52D7682E1E7B35F900F45C50 /* ShellScript */,
+				8C1AAE2D6905C79E78F7DABD /* [CP] Embed Pods Frameworks */,
+				401990B84EFEB1022F0AE205 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SureFi;
+			productName = SureFi;
+			productReference = 52D768121E7B300600F45C50 /* SureFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D7680A1E7B300600F45C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tracy;
+				TargetAttributes = {
+					52D768111E7B300600F45C50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2X5DK7A9FQ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 52D7680D1E7B300600F45C50 /* Build configuration list for PBXProject "SureFi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D768091E7B300600F45C50;
+			productRefGroup = 52D768131E7B300600F45C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D768111E7B300600F45C50 /* SureFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D768101E7B300600F45C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52790E031EA5361300914F17 /* Info.plist in Resources */,
+				52D768251E7B300600F45C50 /* LaunchScreen.storyboard in Resources */,
+				52D768221E7B300600F45C50 /* Assets.xcassets in Resources */,
+				52D768201E7B300600F45C50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		401990B84EFEB1022F0AE205 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SureFi/Pods-SureFi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D7682E1E7B35F900F45C50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		88DF040DDA95833B6DB6BDFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1AAE2D6905C79E78F7DABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SureFi/Pods-SureFi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D7680E1E7B300600F45C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C83C171F0FDAE1002EEC91 /* SFBridgeController.swift in Sources */,
+				5249AA171E8EA4D400C1C3A0 /* Reachability.swift in Sources */,
+				52A10DB81EF449F200A09923 /* ConfigureViewController.swift in Sources */,
+				52D323B21F101B8800F4B3F2 /* BridgeDeviceFirmwareTableViewController.swift in Sources */,
+				5293D7B51F0AAC7F00FD5F1D /* BridgeUpdateSelectViewController.swift in Sources */,
+				526AF43D1ED72FEC00B4F4A3 /* ConfigureRadioTableViewController.swift in Sources */,
+				52790E111EA6C70100914F17 /* BridgeSelectViewController.swift in Sources */,
+				525F19881EF2CE16006351FB /* PairingExamplesViewController.swift in Sources */,
+				525F198E1EF2D777006351FB /* PairingSystemViewController.swift in Sources */,
+				522352B01EEAE9750007F8D6 /* BridgeTextViewController.swift in Sources */,
+				521D6AA41ECA00EB00D23D14 /* BridgeConfigureTableViewController.swift in Sources */,
+				522352AE1EEA08330007F8D6 /* BridgeImageViewController.swift in Sources */,
+				52D7682D1E7B33CE00F45C50 /* MainViewController.swift in Sources */,
+				52D323B61F101C5400F4B3F2 /* BridgeDeviceUnpairTableViewController.swift in Sources */,
+				52A10DBB1EF467CD00A09923 /* ConfigureRadioSelectViewController.swift in Sources */,
+				5284872B1ECE41BA00633FB8 /* Crc16.swift in Sources */,
+				522352B71EF036520007F8D6 /* RegisterTableViewController.swift in Sources */,
+				5249AA151E8EA4A700C1C3A0 /* Util.swift in Sources */,
+				525F198C1EF2D34F006351FB /* PairingRemoteViewController.swift in Sources */,
+				522490CC1F0E98C40061E1B2 /* BridgeDeviceDetailsTableViewController.swift in Sources */,
+				52790E0F1EA6B9DE00914F17 /* BridgePairTableViewController.swift in Sources */,
+				522352A11EE70E440007F8D6 /* AccountTableViewController.swift in Sources */,
+				52D768161E7B300600F45C50 /* AppDelegate.swift in Sources */,
+				5249AA191E8ECA1F00C1C3A0 /* SessionController.swift in Sources */,
+				529528B21F0D78C10026D1FE /* BridgeDeviceListTableViewController.swift in Sources */,
+				52790E021EA5361300914F17 /* iCarousel.m in Sources */,
+				529528B01F0D72820026D1FE /* BridgeStartViewController.swift in Sources */,
+				525E15E41EA941290003BB48 /* BridgePairingTableViewController.swift in Sources */,
+				527B55DF1ECC9FF6000FC630 /* BridgeFirmwareUpdateViewController.swift in Sources */,
+				52D323B81F101C8200F4B3F2 /* BridgeDeviceDeployTableViewController.swift in Sources */,
+				5293D7B31F0A9D1700FD5F1D /* BridgeUpdateTableViewController.swift in Sources */,
+				52D323B41F101C1900F4B3F2 /* BridgeDevicePairTableViewController.swift in Sources */,
+				525F19841EF1A3B8006351FB /* PairingTableViewController.swift in Sources */,
+				52D323B01F101B3300F4B3F2 /* BridgeDeviceRadioTableViewController.swift in Sources */,
+				52AF5DAC1ED4B74800EE6000 /* BridgeFirmwareSelectTableViewController.swift in Sources */,
+				525F19861EF1A917006351FB /* PairingCentralViewController.swift in Sources */,
+				52D768191E7B300600F45C50 /* SureFi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D7681E1E7B300600F45C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D7681F1E7B300600F45C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D768231E7B300600F45C50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D768241E7B300600F45C50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D768271E7B300600F45C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D768281E7B300600F45C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D7682A1E7B300600F45C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43214577106A51E5575ECF40 /* Pods-SureFi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SureFi/SureFi.entitlements;
+				DEVELOPMENT_TEAM = 2X5DK7A9FQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SureFi",
+				);
+				INFOPLIST_FILE = SureFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sure-fi.SureFi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SureFi/SureFi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52D7682B1E7B300600F45C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1742C28F122FBECFF67CB93C /* Pods-SureFi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SureFi/SureFi.entitlements;
+				DEVELOPMENT_TEAM = 2X5DK7A9FQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SureFi",
+				);
+				INFOPLIST_FILE = SureFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sure-fi.SureFi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SureFi/SureFi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D7680D1E7B300600F45C50 /* Build configuration list for PBXProject "SureFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D768271E7B300600F45C50 /* Debug */,
+				52D768281E7B300600F45C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D768291E7B300600F45C50 /* Build configuration list for PBXNativeTarget "SureFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D7682A1E7B300600F45C50 /* Debug */,
+				52D7682B1E7B300600F45C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52D768171E7B300600F45C50 /* SureFi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52D768181E7B300600F45C50 /* SureFi.xcdatamodel */,
+			);
+			currentVersion = 52D768181E7B300600F45C50 /* SureFi.xcdatamodel */;
+			path = SureFi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52D7680A1E7B300600F45C50 /* Project object */;
+}

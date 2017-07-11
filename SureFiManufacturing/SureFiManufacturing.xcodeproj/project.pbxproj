@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520C7FC31EF9774E000EE283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520C7FC11EF9774E000EE283 /* LaunchScreen.storyboard */; };
+		520C7FC61EF983CB000EE283 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C7FC51EF983CB000EE283 /* LoginViewController.swift */; };
+		520C7FC81EF98FB9000EE283 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C7FC71EF98FB9000EE283 /* MenuCollectionViewController.swift */; };
+		5247D3AD1F01B246002619C7 /* ACBG2DevicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247D3AC1F01B246002619C7 /* ACBG2DevicesTableViewController.swift */; };
+		526C1EED1EF9AD3A0039CCB8 /* ACBG2MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EEC1EF9AD3A0039CCB8 /* ACBG2MenuCollectionViewController.swift */; };
+		526C1EEF1EF9B70B0039CCB8 /* ACBG2FlashSerialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EEE1EF9B70B0039CCB8 /* ACBG2FlashSerialViewController.swift */; };
+		526C1EF11EF9C51E0039CCB8 /* ACBG2SelectFirmwareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EF01EF9C51E0039CCB8 /* ACBG2SelectFirmwareTableViewController.swift */; };
+		526C1EF41EF9CCA20039CCB8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EF21EF9CCA20039CCB8 /* Util.swift */; };
+		526C1EF51EF9CCA20039CCB8 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EF31EF9CCA20039CCB8 /* SessionController.swift */; };
+		526C1EF71EF9CE500039CCB8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EF61EF9CE500039CCB8 /* Reachability.swift */; };
+		526C1EF91EF9CE8D0039CCB8 /* Crc16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C1EF81EF9CE8D0039CCB8 /* Crc16.swift */; };
+		528ED28B1F040AE6004BC947 /* ACBG2UpdateFirmwareTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528ED28A1F040AE6004BC947 /* ACBG2UpdateFirmwareTableViewController.swift */; };
+		529BC8761EF9957E00A0F354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BC8741EF9957E00A0F354 /* Main.storyboard */; };
+		52C360311EF9761100ED0E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C360301EF9761100ED0E34 /* AppDelegate.swift */; };
+		52C360391EF9761100ED0E34 /* SureFiManufacturing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52C360371EF9761100ED0E34 /* SureFiManufacturing.xcdatamodeld */; };
+		52C3603B1EF9761100ED0E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C3603A1EF9761100ED0E34 /* Assets.xcassets */; };
+		E922CBE4B4698A7876EB6B3F /* Pods_SureFiManufacturing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A28EFE61C10DF63CDE1C14 /* Pods_SureFiManufacturing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25A28EFE61C10DF63CDE1C14 /* Pods_SureFiManufacturing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SureFiManufacturing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37313F7236D2ED222791384C /* Pods-SureFiManufacturing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureFiManufacturing.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SureFiManufacturing/Pods-SureFiManufacturing.debug.xcconfig"; sourceTree = "<group>"; };
+		520C7FC21EF9774E000EE283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520C7FC51EF983CB000EE283 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		520C7FC71EF98FB9000EE283 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		5247D3AB1F01A6E5002619C7 /* SureFiManufacturing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SureFiManufacturing-Bridging-Header.h"; sourceTree = "<group>"; };
+		5247D3AC1F01B246002619C7 /* ACBG2DevicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACBG2DevicesTableViewController.swift; sourceTree = "<group>"; };
+		526C1EEC1EF9AD3A0039CCB8 /* ACBG2MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBG2MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		526C1EEE1EF9B70B0039CCB8 /* ACBG2FlashSerialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBG2FlashSerialViewController.swift; sourceTree = "<group>"; };
+		526C1EF01EF9C51E0039CCB8 /* ACBG2SelectFirmwareTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACBG2SelectFirmwareTableViewController.swift; sourceTree = "<group>"; };
+		526C1EF21EF9CCA20039CCB8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		526C1EF31EF9CCA20039CCB8 /* SessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		526C1EF61EF9CE500039CCB8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		526C1EF81EF9CE8D0039CCB8 /* Crc16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crc16.swift; sourceTree = "<group>"; };
+		528ED28A1F040AE6004BC947 /* ACBG2UpdateFirmwareTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACBG2UpdateFirmwareTableViewController.swift; sourceTree = "<group>"; };
+		529BC8751EF9957E00A0F354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52C3602D1EF9761100ED0E34 /* SureFiManufacturing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SureFiManufacturing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C360301EF9761100ED0E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52C360381EF9761100ED0E34 /* SureFiManufacturing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SureFiManufacturing.xcdatamodel; sourceTree = "<group>"; };
+		52C3603A1EF9761100ED0E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52C3603F1EF9761100ED0E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8204916987F1BE30820B2CE8 /* Pods-SureFiManufacturing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SureFiManufacturing.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SureFiManufacturing/Pods-SureFiManufacturing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C3602A1EF9761100ED0E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922CBE4B4698A7876EB6B3F /* Pods_SureFiManufacturing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A3374BDDA69DCA2BEBFD6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A28EFE61C10DF63CDE1C14 /* Pods_SureFiManufacturing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520C7FC41EF977E1000EE283 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				526C1EF81EF9CE8D0039CCB8 /* Crc16.swift */,
+				526C1EF61EF9CE500039CCB8 /* Reachability.swift */,
+				52C3603F1EF9761100ED0E34 /* Info.plist */,
+				5247D3AB1F01A6E5002619C7 /* SureFiManufacturing-Bridging-Header.h */,
+				52C360371EF9761100ED0E34 /* SureFiManufacturing.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		526C1EEB1EF9AD100039CCB8 /* AccessControlBridgeG2 */ = {
+			isa = PBXGroup;
+			children = (
+				526C1EEC1EF9AD3A0039CCB8 /* ACBG2MenuCollectionViewController.swift */,
+				526C1EEE1EF9B70B0039CCB8 /* ACBG2FlashSerialViewController.swift */,
+				526C1EF01EF9C51E0039CCB8 /* ACBG2SelectFirmwareTableViewController.swift */,
+				528ED28A1F040AE6004BC947 /* ACBG2UpdateFirmwareTableViewController.swift */,
+				5247D3AC1F01B246002619C7 /* ACBG2DevicesTableViewController.swift */,
+			);
+			name = AccessControlBridgeG2;
+			sourceTree = "<group>";
+		};
+		529BC8771EF9958500A0F354 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				520C7FC11EF9774E000EE283 /* LaunchScreen.storyboard */,
+				529BC8741EF9957E00A0F354 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		52C360241EF9761100ED0E34 = {
+			isa = PBXGroup;
+			children = (
+				52C3602F1EF9761100ED0E34 /* SureFiManufacturing */,
+				52C3602E1EF9761100ED0E34 /* Products */,
+				B2E47BC60AED3AD6670D969A /* Pods */,
+				17A3374BDDA69DCA2BEBFD6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52C3602E1EF9761100ED0E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C3602D1EF9761100ED0E34 /* SureFiManufacturing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C3602F1EF9761100ED0E34 /* SureFiManufacturing */ = {
+			isa = PBXGroup;
+			children = (
+				529BC8771EF9958500A0F354 /* Storyboards */,
+				52C3603A1EF9761100ED0E34 /* Assets.xcassets */,
+				52C360301EF9761100ED0E34 /* AppDelegate.swift */,
+				520C7FC51EF983CB000EE283 /* LoginViewController.swift */,
+				520C7FC71EF98FB9000EE283 /* MenuCollectionViewController.swift */,
+				526C1EF21EF9CCA20039CCB8 /* Util.swift */,
+				526C1EF31EF9CCA20039CCB8 /* SessionController.swift */,
+				526C1EEB1EF9AD100039CCB8 /* AccessControlBridgeG2 */,
+				520C7FC41EF977E1000EE283 /* Resources */,
+			);
+			path = SureFiManufacturing;
+			sourceTree = "<group>";
+		};
+		B2E47BC60AED3AD6670D969A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37313F7236D2ED222791384C /* Pods-SureFiManufacturing.debug.xcconfig */,
+				8204916987F1BE30820B2CE8 /* Pods-SureFiManufacturing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C3602C1EF9761100ED0E34 /* SureFiManufacturing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C360421EF9761100ED0E34 /* Build configuration list for PBXNativeTarget "SureFiManufacturing" */;
+			buildPhases = (
+				5720EFA337A034E64F1CF02F /* [CP] Check Pods Manifest.lock */,
+				52C360291EF9761100ED0E34 /* Sources */,
+				52C3602A1EF9761100ED0E34 /* Frameworks */,
+				52C3602B1EF9761100ED0E34 /* Resources */,
+				29EB9970AA9157EC3CF9D7F2 /* [CP] Embed Pods Frameworks */,
+				9B487F5EB2550C786E64DF50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SureFiManufacturing;
+			productName = SureFiManufacturing;
+			productReference = 52C3602D1EF9761100ED0E34 /* SureFiManufacturing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C360251EF9761100ED0E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sure-Fi";
+				TargetAttributes = {
+					52C3602C1EF9761100ED0E34 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 52C360281EF9761100ED0E34 /* Build configuration list for PBXProject "SureFiManufacturing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C360241EF9761100ED0E34;
+			productRefGroup = 52C3602E1EF9761100ED0E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C3602C1EF9761100ED0E34 /* SureFiManufacturing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C3602B1EF9761100ED0E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BC8761EF9957E00A0F354 /* Main.storyboard in Resources */,
+				520C7FC31EF9774E000EE283 /* LaunchScreen.storyboard in Resources */,
+				52C3603B1EF9761100ED0E34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29EB9970AA9157EC3CF9D7F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SureFiManufacturing/Pods-SureFiManufacturing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5720EFA337A034E64F1CF02F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B487F5EB2550C786E64DF50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SureFiManufacturing/Pods-SureFiManufacturing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C360291EF9761100ED0E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526C1EEF1EF9B70B0039CCB8 /* ACBG2FlashSerialViewController.swift in Sources */,
+				5247D3AD1F01B246002619C7 /* ACBG2DevicesTableViewController.swift in Sources */,
+				526C1EF51EF9CCA20039CCB8 /* SessionController.swift in Sources */,
+				526C1EF11EF9C51E0039CCB8 /* ACBG2SelectFirmwareTableViewController.swift in Sources */,
+				520C7FC61EF983CB000EE283 /* LoginViewController.swift in Sources */,
+				526C1EF41EF9CCA20039CCB8 /* Util.swift in Sources */,
+				526C1EF91EF9CE8D0039CCB8 /* Crc16.swift in Sources */,
+				526C1EED1EF9AD3A0039CCB8 /* ACBG2MenuCollectionViewController.swift in Sources */,
+				528ED28B1F040AE6004BC947 /* ACBG2UpdateFirmwareTableViewController.swift in Sources */,
+				520C7FC81EF98FB9000EE283 /* MenuCollectionViewController.swift in Sources */,
+				52C360391EF9761100ED0E34 /* SureFiManufacturing.xcdatamodeld in Sources */,
+				526C1EF71EF9CE500039CCB8 /* Reachability.swift in Sources */,
+				52C360311EF9761100ED0E34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520C7FC11EF9774E000EE283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520C7FC21EF9774E000EE283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		529BC8741EF9957E00A0F354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529BC8751EF9957E00A0F354 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52C360401EF9761100ED0E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52C360411EF9761100ED0E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C360431EF9761100ED0E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37313F7236D2ED222791384C /* Pods-SureFiManufacturing.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X5DK7A9FQ;
+				INFOPLIST_FILE = SureFiManufacturing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sure-fi.SureFiManufacturing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SureFiManufacturing/SureFiManufacturing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C360441EF9761100ED0E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8204916987F1BE30820B2CE8 /* Pods-SureFiManufacturing.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X5DK7A9FQ;
+				INFOPLIST_FILE = SureFiManufacturing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sure-fi.SureFiManufacturing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SureFiManufacturing/SureFiManufacturing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C360281EF9761100ED0E34 /* Build configuration list for PBXProject "SureFiManufacturing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C360401EF9761100ED0E34 /* Debug */,
+				52C360411EF9761100ED0E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C360421EF9761100ED0E34 /* Build configuration list for PBXNativeTarget "SureFiManufacturing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C360431EF9761100ED0E34 /* Debug */,
+				52C360441EF9761100ED0E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52C360371EF9761100ED0E34 /* SureFiManufacturing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52C360381EF9761100ED0E34 /* SureFiManufacturing.xcdatamodel */,
+			);
+			currentVersion = 52C360381EF9761100ED0E34 /* SureFiManufacturing.xcdatamodel */;
+			path = SureFiManufacturing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52C360251EF9761100ED0E34 /* Project object */;
+}
